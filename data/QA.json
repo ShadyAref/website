@@ -1,0 +1,74 @@
+{
+    "questions" : [
+        {
+            "question": "What is the purpose of the ALT attribute on images ?",
+            "answer": "The alt attribute provides alternative information for an image if a user cannot view it. The alt attribute\n should be used to describe any images except those which only serve a decorative purpose, in which case it\n should be left empty.\n Good to hear\n Decorative images should have an empty alt attribute.\n Web crawlers use alt tags to understand image content, so they are considered important for Search Engine Optimization (SEO).\n Put the . at the end of alt tag to improve accessibility.",
+            "id": 1,
+            "type": "HTML",
+            "difficulty": "EASY"
+        },
+        {
+            "question": "Can a web page contain multiple <header> elements? What about <footer> elements?",
+            "answer": "Yes to both. The W3 documents state that the tags represent the header(<header>) and footer(<footer>) areas of their nearest ancestor section. So not only can the page <body> contain a header and a footer, but so can every <article> and <section> element.",
+            "id": 2,
+            "type": "HTML",
+            "difficulty": "INTERMEDIATE"
+        },
+        {
+            "question": "Where and why is the rel='noopener' attribute used?",
+            "answer": "The rel='noopener' is an attribute used in <a> elements (hyperlinks). It prevents pages from having a window.opener property, which would otherwise point to the page from where the link was opened and would allow the page opened from the hyperlink to manipulate the page where the hyperlink is.",
+            "id": 3,
+            "type": "HTML",
+            "difficulty": "INTERMEDIATE"
+        },
+        {
+            "question": "What is the purpose of cache busting and how can you achieve it?",
+            "answer": "Browsers have a cache to temporarily store files on websites so they don't need to be re-downloaded again when switching between pages or reloading the same page. The server is set up to send headers that tell the browser to store the file for a given amount of time. This greatly increases website speed and preserves bandwidth.",
+            "id": 4,
+            "type": "HTML",
+            "difficulty": "HARD"
+        },
+        {
+            "question": "What is CSS BEM?",
+            "answer": "The BEM methodology is a naming convention for CSS classes in order to keep CSS more maintainable by defining namespaces to solve scoping issues. BEM stands for Block Element Modifier which is an explanation for its structure. A Block is a standalone component that is reusable across projects and acts as a 'namespace' for sub components (Elements). Modifiers are used as flags when a Block or Element is in a certain state or is different in structure or style.",
+            "id": 5,
+            "type": "CSS",
+            "difficulty": "EASY"
+        },
+        {
+            "question": "What are the advantages of using CSS preprocessors?",
+            "answer": "CSS preprocessors add useful functionality that native CSS does not have, and generally make CSS neater and more maintainable by enabling DRY (Don't Repeat Yourself) principles. Their terse syntax for nested selectors cuts down on repeated code. They provide variables for consistent theming (however, CSS variables have largely replaced this functionality) and additional tools like color functions (lighten, darken, transparentize, etc), mixins, and loops that make CSS more like a real programming language and gives the developer more power to generate complex CSS.",
+            "id": 6,
+            "type": "CSS",
+            "difficulty": "EASY"
+        },
+        {
+            "question": "What is the difference between em and rem units?",
+            "answer": "Both em and rem units are based on the font-size CSS property. The only difference is where they inherit their values from. em units inherit their value from the font-size of the parent element. rem units inherit their value from the font-size of the root element (html)",
+            "id": 7,
+            "type": "CSS",
+            "difficulty": "HARD"
+        },
+        {
+            "question": "What is the difference between the equality operators == and ===?",
+            "answer": "Triple equals (===) checks for strict equality, which means both the type and value must be the same. Double equals (==) on the other hand first performs type coercion so that both operands are of the same type and then applies strict comparison.",
+            "id": 8,
+            "type": "javaScript",
+            "difficulty": "INTERMEDIATE"
+        },
+        {
+            "question": "What is the difference between the postfix i++ and prefix ++i increment operators?",
+            "answer": "Both increment the variable value by 1. The difference is what they evaluate to. The postfix increment operator evaluates to the value before it was incremented. The prefix increment operator evaluates to the value after it was incremented.",
+            "id": 9,
+            "type": "javaScript",
+            "difficulty": "HARD"
+        },
+        {
+            "question": "What is a stateless component?",
+            "answer": "A stateless component is a component whose behavior does not depend on its state. Stateless components can be either functional or class components. Stateless functional components are easier to maintain and test since they are guaranteed to produce the same output given the same props. Stateless functional components should be preferred when lifecycle hooks don't need to be used.",
+            "id": 10,
+            "type": "javaScript",
+            "difficulty": "EASY"
+        }
+    ]
+}

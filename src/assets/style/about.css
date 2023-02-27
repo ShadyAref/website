@@ -1,0 +1,24 @@
+:root {
+    --about-color-background: #fff;
+    --about-content-colors: black;
+}
+
+:root[data-theme="dark"] {
+    --about-color-background: #292c35;
+    --about-content-colors: #fff;
+}
+
+.about-section {
+    position: relative;
+    width: 800px;
+    margin-left: 550px;
+    background: var(--about-color-background);
+    color: var(--about-content-colors);
+    box-shadow: 0 0 45px rgb(0 0 0 / 8%);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-section p {
+    font-weight: bold;
+}

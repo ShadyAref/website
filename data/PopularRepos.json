@@ -1,0 +1,40 @@
+{
+    "repos": [
+        {
+            "name": "Awesome",
+            "author": "Sindre Sorhus",
+            "description": "Awesome is, without a doubt, the most popular repo that curates all topics from software development to hardware to business. It has more than 223,000 stars on Github at this moment, and one could spend days (nights) browsing it. It is my one-stop shop if I want to learn something new.",
+            "url": "https://github.com/sindresorhus/awesome"
+        },
+        {
+            "name": "javascript-questions",
+            "author": "Lydia Halie",
+            "description": "This repository (49,000 stars) is awesome if you want to test your JavaScript knowledge and/or prepare for a job interview. Lydia constantly adds new questions, so this repo is growing steadily!",
+            "url": "https://github.com/lydiahallie/javascript-questions"
+        },
+        {
+            "name": "Clean Code JavaScript",
+            "author": "Ryan McDermott",
+            "description": "Knowing how to write clean code is a useful skill for almost every developer and mandatory in many projects and corporations. This repository (73,700 Stars) takes the concepts of Clean Code",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript"
+        },
+        {
+            "name": "Tech Interview Handbook",
+            "author": "Yangshun Tay",
+            "description": "If you want to prepare yourself for a job interview in tech (and you should!), this repository is just the right place for you. It currently has 80,000 stars on Github and helps you",
+            "url": "https://github.com/yangshun/tech-interview-handbook"
+        },
+        {
+            "name": "free-for.dev",
+            "author": "R.I.Pienaar",
+            "description": "This excellent repository (60,800 stars) was created to help developers find software (SaaS, PaaS, IaaS) and similar offerings that have free tiers. Using great software for free? Sounds awesome! There are services for email, CI/CD, monitoring, DNS, hosting, and many more.",
+            "url": "https://github.com/ripienaar/free-for-dev"
+        },
+        {
+            "name": "JavaScript Algorithms and Data Structures",
+            "author": "Oleksii Trekhleb",
+            "description": "JavaScript Algorithms (153,000 stars) contains a tremendous amount of JavaScript-based examples of popular and less popular algorithms and data structures. The structure is really nice because the examples are labeled either beginner or advanced.",
+            "url": "https://github.com/trekhleb/javascript-algorithms"
+        }
+    ]
+}

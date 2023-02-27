@@ -1,0 +1,59 @@
+:root {
+    --color-headers: black;
+    --nav-background-color: #2124B1;
+}
+
+:root[data-theme="dark"] {
+    --color-headers: #fff;
+    --nav-background-color: black;
+}
+
+.inner-content {
+    position: absolute;
+    left: 850px;
+    color: var(--color-headers);
+}
+
+.admin-content {
+    height: fit-content;
+}
+
+.sidenav {
+    border-radius: 2px;
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    left: 0;
+    background-color: var(--nav-background-color);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav #home.router-link-exact-active,
+.sidenav #resources.router-link-exact-active,
+.sidenav #about.router-link-exact-active,
+.sidenav #interview-questions.router-link-exact-active {
+    color: #888;
+}
+
+.sidenav #home:hover,
+.sidenav #resources:hover,
+.sidenav #interview-questions:hover,
+.sidenav #about:hover {
+    color: #888;
+}
+
+/* The navigation menu links */
+.sidenav #home,
+.sidenav #resources,
+.sidenav #interview-questions,
+.sidenav #about,
+.sidenav #backToHome {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    line-height: 3;
+    color: #fff;
+    display: block;
+}

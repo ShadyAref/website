@@ -1,0 +1,52 @@
+:root {
+    --repo-color-background: #fff;
+    --repo-content-colors: black;
+    --repo-link-color: #2124B1;
+}
+
+:root[data-theme="dark"] {
+    --repo-color-background: #292c35;
+    --repo-content-colors: #fff;
+    --repo-link-color: #fff;
+}
+
+
+.container {
+    height: fit-content;
+    display: flex;
+    margin-left: 220px;
+    flex-wrap: wrap;
+    gap: 30px 0;
+}
+
+.repo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--repo-color-background);
+    color: var(--repo-content-colors);
+    margin-left: 33px;
+    border-radius: 5px;
+    width: 23%;
+    height: 400px;
+    box-shadow: 0 0 45px rgb(0 0 0 / 8%);
+    transition: .5s;
+    padding: 30px 25px;
+}
+
+.repo:hover {
+    box-shadow: 0 0 45px rgb(0 0 0 / 50%);
+    transition: 2s;
+}
+
+.repo a {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--repo-link-color);
+}
+
+.repo p {
+    line-height: 1.8;
+}

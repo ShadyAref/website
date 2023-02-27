@@ -1,0 +1,49 @@
+:root {
+    --color-submit: #2124B1;
+    --label-color: black;
+}
+
+:root[data-theme="dark"] {
+    --color-submit: black;
+    --label-color: #fff;
+}
+
+label {
+    color: var(--label-color);
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    border-radius: 8px;
+    width: 500px;
+    height: 300px;
+    margin-left: 715px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.submit {
+    background-color: var(--color-submit);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 16px;
+}
